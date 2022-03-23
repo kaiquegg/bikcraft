@@ -14,6 +14,7 @@
   height: 100%;
   object-fit: cover;
   object-position: left;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
 }
 
 .tecnologia-conteudo {
