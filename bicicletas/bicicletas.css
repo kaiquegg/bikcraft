@@ -4,6 +4,7 @@
 
 .bicicletas {
   display: grid;
+  background: url("../img/dec/top-right.svg") no-repeat top 40px right 20px;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding-top: 60px;
