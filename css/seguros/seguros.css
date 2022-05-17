@@ -29,7 +29,10 @@
 .seguros-item h3 {
   margin-bottom: 40px;
 }
-
+.voce-seguro {
+  display: flex;
+  gap: 20px;
+}
 .seguros-item span {
   grid-column: 2;
   display: block;
