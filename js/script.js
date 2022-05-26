@@ -66,3 +66,16 @@ galeria.forEach(trocaGaleria);
 if (window.SimpleAnime) {
   new SimpleAnime();
 }
+
+// Mensagem Orçamentos
+var btnOrca = document.querySelector(".btnOrca");
+
+function btnClasse() {
+  btnOrca.textContent = "Enviado!";
+  if (btnOrca.innerHTML == "Enviado!") {
+    btnOrca.classList.add("btnEnvio");
+  }
+}
+if (window.btnOrca) {
+  btnOrca.addEventListener("click", btnClasse);
+}
